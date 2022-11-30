@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course>
+    <student>
+        <name>Mohit</name>
+        <regno>67</regno>
+        <class>MCA</class>
+    </student> 
+    <student1>
+        <name>Ronak</name>
+        <regno>32</regno>
+        <class>MCOM</class>
+    </student1> 
+    <student2>
+        <name>Awantika</name>
+        <regno>43</regno>
+        <class>MPHIL</class>
+    </student2> 
+</course>
