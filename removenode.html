@@ -18,7 +18,7 @@ function myFunction(xml) {
     var xmlDoc = xml.responseXML;
     var root = xmlDoc.documentElement;
     var currNode = root.childNodes[1];
-    removedNode = currNode.removeChild(currNode.childNodes[1]);
+    removedNode = root.removeChild(root.childNodes[1]);
     document.getElementById("demo").innerHTML = "Removed node: " + removedNode.nodeName;
 }
 </script>
